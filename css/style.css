@@ -4,3 +4,16 @@
 h1 {
   color: white;
 }
+a:link {
+  color: red;
+}
+
+
+a:visited {
+  color: yellow;
+}
+
+
+a:hover {
+  color: white;
+}
