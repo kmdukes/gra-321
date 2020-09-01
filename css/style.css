@@ -8,12 +8,13 @@ a:link {
   color: red;
 }
 
-
 a:visited {
   color: yellow;
 }
 
-
 a:hover {
   color: white;
 }
+ul.a {
+  list-style-type: circle;
+}  
