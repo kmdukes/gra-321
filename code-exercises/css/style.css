@@ -4,4 +4,12 @@
 
 h1 {
 
-}
+
+  button {
+    background-color:#black;
+    border: none;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 1em 2em 1em 2em;
+  }
