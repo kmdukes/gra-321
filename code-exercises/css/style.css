@@ -11,6 +11,11 @@
     padding: 1em 2em 1em 2em;
   }
 
+  .padding-hover:hover {
+    background-color: CornflowerBlue;
+    color:white;
+    text-decoration:underline;
+
 
   .container {
     background-image: url(C:\Users\kylie\Pictures\Fall 2020\gra-321\code-exercises\img\atsadawut-chaiseeha-uZlA_JmTmC8-unsplash (1).jpg);
@@ -22,13 +27,13 @@
   }
   @media screen and (max-width: 1000px) {
     body {
-      background-color: LightSalmon;
+      background-color: Aquamarine;
   }
   }
 
   @media screen and (max-width: 500px) {
     body {
-      background-color: MediumSeaGreen;
+      background-color: CornflowerBlue;
   }
   }
 
