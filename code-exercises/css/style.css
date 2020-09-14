@@ -25,17 +25,25 @@
     width:50%;
 
   }
+
+
   @media screen and (max-width: 1000px) {
     body {
-      background-color: Aquamarine;
+      background-color: LightSalmon;
   }
   }
 
   @media screen and (max-width: 500px) {
     body {
-      background-color: CornflowerBlue;
+      background-color: MediumSeaGreen;
   }
   }
+
+
+
+
+
+
 
 h1 {
     margin-left: 20px;
