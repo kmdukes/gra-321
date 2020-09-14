@@ -24,7 +24,6 @@
     margin: 0 auto;
     width:50%;
 
-  }
 
 
   @media screen and (max-width: 1000px) {
@@ -38,10 +37,6 @@
       background-color: MediumSeaGreen;
   }
   }
-
-
-
-
 
 
 h1 {
