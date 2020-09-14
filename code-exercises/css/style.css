@@ -1,9 +1,6 @@
-* {
-
-}
-
-h3 {
-
+  body {
+    background-color: SkyBlue;
+  }
 
   button {
     background-color:black;
@@ -34,15 +31,6 @@ h3 {
       background-color: MediumSeaGreen;
   }
   }
-
-   
-
-
-
-
-
-
-
 
   }
 h1 {
