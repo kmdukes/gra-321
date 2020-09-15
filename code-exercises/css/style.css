@@ -1,5 +1,8 @@
   body {
     background-color: SkyBlue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margain-bottom: 20 px;
   }
 
   button {
@@ -18,7 +21,7 @@
 }
 
   .container {
-    background-image: url(../img/atsadawut-chaiseeha-uZlA_JmTmC8-unsplash (1).jpg);
+    background-image: url(../img/koi.jpg);
     background-size: cover;
     height:600px;
     margin: 0 auto;
