@@ -23,10 +23,23 @@
   .container {
     background-image: url(../img/koi.jpg);
     background-size: cover;
-    height:600px;
+    height:1000px;
     margin: 0 auto;
     width:50%;
 }
+
+.magazine {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
+
+
+
+
 
 
   @media screen and (max-width: 1000px) {
