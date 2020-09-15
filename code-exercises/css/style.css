@@ -15,7 +15,7 @@
     background-color: GhostWhite;
     color:white;
     text-decoration:underline;
-
+}
 
   .container {
     background-image: url(C:\Users\kylie\Pictures\Fall 2020\gra-321\code-exercises\img\atsadawut-chaiseeha-uZlA_JmTmC8-unsplash (1).jpg);
@@ -23,7 +23,7 @@
     height:600px;
     margin: 0 auto;
     width:50%;
-
+}
 
 
   @media screen and (max-width: 1000px) {
