@@ -2,7 +2,9 @@ body {
   background-color: #D9A25F;
   font-size: 17px;
   font-family: arial, helvetica, sans-serif;
+  margin-left: 20px;
 }
+
 
 .button1 {
   background-color: #8C5845;
@@ -26,15 +28,106 @@ button {
   font-size: 16px;
 }
 
+.select-css {
+    border: 1px solid #999;
+    background-color: #739CBF;
+    border-radius: 5px;
+    margin-left: 20px;
+      }
 
 a:link {
   color: white;
 }
 
 a:visited {
-  color: blue;
+  color: white;
 }
 
 a:active {
   color: white;
+}
+
+.iced-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iced-drinks {
+  display: inline-flex;
+}
+
+.prices {
+  display: inline-flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.hot-menu {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hot-drinks {
+  display: inline-flex;
+}
+
+.prices2 {
+  display: inline-flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.cold-tea {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iced-tea {
+  display: inline-flex;
+}
+
+.prices3 {
+  display: inline-flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.hot-tea {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hottest-tea {
+  display: inline-flex;
+}
+
+.prices4 {
+  display: inline-flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.food {
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.snacks {
+  display: inline-flex;
+}
+
+.prices5 {
+  display: inline-flex;
+  width: 10%;
+  justify-content: space-around;
 }
