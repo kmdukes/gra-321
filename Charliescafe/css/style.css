@@ -1,0 +1,40 @@
+body {
+  background-color: #D9A25F;
+  font-size: 17px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.button1 {
+  background-color: #8C5845;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button {
+  background-color: #182126;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:active {
+  color: white;
+}
