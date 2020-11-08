@@ -28,6 +28,33 @@ button {
   font-size: 16px;
 }
 
+.nav-bar:first-child, .nav-bar:first-child {
+  padding: 10px 0px;
+}
+
+@media only screen and (min-width:400px) {
+  .nav-bar {
+  display: flex;
+  justify-content: space-around;
+  }
+  .nav-bar:first-child, .nav-bar:first-child {
+  padding: 0px 0px;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .select-css {
     border: 1px solid #999;
     background-color: #739CBF;
