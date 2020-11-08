@@ -34,10 +34,7 @@ button {
 
 
 
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
+
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
