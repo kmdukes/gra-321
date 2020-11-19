@@ -2,6 +2,8 @@
   .responsive {
     width: 100%;
     height: auto;
+
+
 }
 
   body {
@@ -34,10 +36,13 @@ button {
   display: inline-block;
   font-size: 17px;
   margin: 10px;
+
+
 }
 
 
 .select-css {
+  display: block;
     border: 1px solid #999;
     background-color: #739CBF;
     border-radius: 5px;
@@ -69,9 +74,25 @@ button {
   }
 
   .iced-drinks {
-    display: inline-flex;
-      flex-shrink: 0;
+    display: inline-block;
+    flex-shrink: 0;
+    width: 50%;
   }
+
+  .iced-drinks-2 {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 30%;
+
+  }
+
+
+
+
+  .iced-drink-text {
+  display: block;
+  }
+
 
   .prices {
     display: inline-flex;
@@ -165,32 +186,20 @@ button {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100%;
+      width: 95%;
       flex-shrink: 0;
     }
 
 
-  .button2{
-    text-align: center;
-
-  }
-
-
-
-
-
-}
-
-}
-
-.first-container {
-
-  display: flex;
-  width: 90%;
-}
-
-
 @media screen and (min-width: 600px) {
+
+  .box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 70%;
+     flex-shrink: 0;
+   }
 
   .foods {
     display: flex;
@@ -232,35 +241,33 @@ button {
 
 
   .directions {
-  display: flex;
-  width: 1800px;
-  margin-left: 10px;
-  margin-right: 60px;
-  flex-shrink: 0;
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
   }
 
-.directions-other {
-  display: inline-flex;
-  width:200px;
-  justify-content: space-between;
-  flex-shrink: 0;
-  margin-left: 10%;
-}
+  .directions-other {
+    display: inline-flex;
+    flex-shrink: 0;
+    width: 100%;
+  }
 
-.directions-other-1 {
-  display: inline-flex;
-  width:200px;
-  justify-content: space-between;
-  flex-shrink: 0;
-  margin-left: 90%;
-}
+  .directions-other-1 {
+  display: block;
+  width: 50%;
+  }
+
+  .directions-other-2 {
+  display: block;
+  justify-content: space-around;
+  padding-right:10%;
+  }
+
+
 
   .button2{
     text-align: center;
-
 }
-
-
 
 
   .first-container {
@@ -277,7 +284,7 @@ button {
 
   body {
     background-color: #D9A25F;
-    font-size: 30px;
+    font-size: 20px;
     font-family: arial, helvetica, sans-serif;
     margin-left: 20px;
     }
@@ -290,7 +297,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
     justify: center;
     align: center;
@@ -299,6 +306,25 @@ button {
     .button1 {
       font-size: 30px;
     }
+
+.socialbox {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.social-other {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+
+.social-1 {
+  display: flex;
+padding-right: 10%;
+
+}
 
 }
 }
