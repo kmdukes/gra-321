@@ -87,6 +87,7 @@ button {
 
   .iced-drink-text {
   display: block;
+  flex-shrink: 0;
   }
 
   .prices {
@@ -305,9 +306,9 @@ button {
     align: center;
     }
 
-    .button1 {
-      font-size: 30px;
-    }
+.button1 {
+    font-size: 30px;
+  }
 
 .socialbox {
   display: flex;
@@ -325,7 +326,8 @@ button {
 
 .social-1 {
   display: flex;
-padding-right: 10%;
+  padding-right: 10%;
+  flex-shrink: 0;
 
 }
 
