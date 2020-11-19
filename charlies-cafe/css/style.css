@@ -1,77 +1,191 @@
-
-  .responsive {
-    width: 100%;
-    height: auto;
+.responsive {
+   width: 100%;
+   height: auto;
 
 
 }
 
-  body {
-    background-color: #D9A25F;
-    font-size:17px;
-    font-family: arial, helvetica, sans-serif;
-    margin-left: 20px;
+ body {
+   background-color: #D9A25F;
+   font-size:17px;
+   font-family: arial, helvetica, sans-serif;
+   margin-left: 20px;
 }
 
 
 .button1 {
-  background-color: #8C5845;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+ background-color: #8C5845;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
 }
 
 
 button {
-  background-color: #182126;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 17px;
-  margin: 10px;
+ background-color: #182126;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 17px;
+ margin: 10px;
 
 
 }
 
 
 .select-css {
-  display: block;
-    border: 1px solid #999;
-    background-color: #739CBF;
-    border-radius: 5px;
-    margin-left: 20px;
+ display: block;
+   border: 1px solid #999;
+   background-color: #739CBF;
+   border-radius: 5px;
+   margin-left: 20px;
 }
 
-  a:link {
-    color: white;
-  }
+ a:link {
+   color: white;
+ }
 
-  a:visited {
-    color: white;
-  }
+ a:visited {
+   color: white;
+ }
 
-  a:active {
-    color: white;
-  }
+ a:active {
+   color: white;
+ }
 
-  .prices1 {
-    padding: 20px;
-  }
+ .prices1 {
+   padding: 20px;
+ }
 
-  .iced-menu {
-    display: flex;
-    width: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
+ .iced-menu {
+   display: flex;
+   width: 40%;
+   margin-left: 10px;
+   margin-right: 10px;
+   flex-shrink: 0;
+ }
+
+ .iced-drinks {
+   display: inline-block;
+   flex-shrink: 0;
+   width: 40%;
+ }
+
+ .iced-drinks-2 {
+   display: inline-block;
+   flex-shrink: 0;
+   width: 40%;
+ }
+
+ .iced-drink-text {
+ display: block;
+ flex-shrink: 0;
+ }
+
+ .prices {
+   display: inline-flex;
+   width: 20%;
+   flex-grow: 1;
+ }
+
+ .hot-menu {
+   display: flex;
+   width: 40%;
+   margin-left: 10px;
+   margin-right: 10px;
+   flex-shrink: 0;
+ }
+
+ .hot-drinks {
+   display: inline-flex;
+     flex-shrink: 0;
+ }
+
+ .prices2 {
+   display: inline-flex;
+   width: 12%;
+   justify-content: space-around;
+   flex-grow: 1;
+   flex-shrink: 0;
+ }
+
+ .cold-tea {
+   display: flex;
+   width: 400px;
+   margin-left: 10px;
+   margin-right: 10px;
+   flex-shrink: 0;
+ }
+
+ .iced-tea {
+   display: inline-flex;
+ }
+
+ .prices3 {
+   display: inline-flex;
+   width: 12%;
+   justify-content: space-around;
+   flex-grow: 1;
+   flex-shrink: 0;
+ }
+
+ .hot-tea {
+   display: flex;
+   width: 40%;
+   margin-left: 10px;
+   margin-right: 10px;
+   flex-shrink: 0;
+ }
+
+ .hottest-tea {
+   display: inline-flex;
+ }
+
+ .prices4 {
+   display: inline-flex;
+   width: 12%;
+   justify-content: space-around;
+   flex-grow: 1;
+ }
+
+ .food {
+   display: flex;
+   width: 40%;
+   margin-left: 10px;
+   margin-right: 10px;
+   flex-shrink: 0;
+ }
+
+ .snacks {
+   display: inline-flex;
+
+   flex-shrink: 0;
+ }
+
+ .prices5 {
+   display: inline-flex;
+   width: 12%;
+   flex-grow: 1;
+   padding-left: 40px;
+ }
+
+  .box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 95%;
+     flex-shrink: 0;
+   }
+
+
+@media screen and (min-width: 600px) {
 
   .iced-drinks {
     display: inline-block;
@@ -79,255 +193,149 @@ button {
     width: 20%;
   }
 
-  .iced-drinks-2 {
-    display: inline-block;
-    flex-shrink: 0;
-    width: 30%;
-  }
 
-  .iced-drink-text {
-  display: block;
-  flex-shrink: 0;
-  }
 
-  .prices {
-    display: inline-flex;
-    width: 20%;
-    flex-grow: 1;
-  }
 
-  .hot-menu {
+ .button-style {
+   padding-left: 20%
+
+ }
+
+
+
+
+ .box {
     display: flex;
-    width: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-
-  .hot-drinks {
-    display: inline-flex;
-      flex-shrink: 0;
-  }
-
-  .prices2 {
-    display: inline-flex;
-    width: 12%;
-    justify-content: space-around;
-    flex-grow: 1;
-    flex-shrink: 0;
-  }
-
-  .cold-tea {
-    display: flex;
-    width: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-
-  .iced-tea {
-    display: inline-flex;
-  }
-
-  .prices3 {
-    display: inline-flex;
-    width: 12%;
-    justify-content: space-around;
-    flex-grow: 1;
-    flex-shrink: 0;
-  }
-
-  .hot-tea {
-    display: flex;
-    width: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-
-  .hottest-tea {
-    display: inline-flex;
-  }
-
-  .prices4 {
-    display: inline-flex;
-    width: 12%;
-    justify-content: space-around;
-    flex-grow: 1;
-  }
-
-  .food {
-    display: flex;
-    width: 40%;
-    margin-left: 10px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-
-  .snacks {
-    display: inline-flex;
-
-    flex-shrink: 0;
-  }
-
-  .prices5 {
-    display: inline-flex;
-    width: 12%;
-    flex-grow: 1;
-    padding-left: 40px;
-  }
-
-   .box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 95%;
-      flex-shrink: 0;
-    }
-
-
-@media screen and (min-width: 600px) {
-
-  .button-style {
-    padding-left: 20%
-
-  }
-
-
-
-
-  .box {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 80%;
-     flex-shrink: 0;
-     padding-left: 15%;
-   }
-
-  .foods {
-    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80%;
-    margin-left: 10px;
-    margin-right: 20px;
-    flex-shrink: 0;
-    padding-left: 20%;
-  }
-
-  .foods-other {
-    display: inline-flex;
-    width: 50%;
-    justify-content: space-around;
-    flex-shrink: 0;
-    margin-left: 10px;
-  }
-
-  .seasonal-drinks {
-    display: flex;
-    width: 80%;
-    margin-left: 10px;
-    margin-right: 20px;
-    flex-shrink: 0;
-    padding-left: 30%;
-  }
-
-  .seasonal-other {
-    display: inline-flex;
-    width: 40%;
-    justify-content: space-around;
-    flex-shrink: 0;
-    margin-left: 10px;
-    margin-right: 20px;
-  }
-
-    .dire {
-    display: flex;
-    width: 100%;
-  }
-
-  .directions {
-    display: flex;
-    width: 100%;
     flex-shrink: 0;
     padding-left: 15%;
   }
 
-  .directions-other {
-    display: inline-flex;
-    flex-shrink: 0;
-    width: 100%;
-  }
+ .foods {
+   display: flex;
+   width: 80%;
+   margin-left: 10px;
+   margin-right: 20px;
+   flex-shrink: 0;
+   padding-left: 20%;
+ }
 
-  .directions-other-1 {
-  display: block;
-  width: 50%;
-  }
+ .foods-other {
+   display: inline-flex;
+   width: 50%;
+   justify-content: space-around;
+   flex-shrink: 0;
+   margin-left: 10px;
+ }
 
-  .directions-other-2 {
-  display: block;
-  justify-content: space-around;
-  padding-right:10%;
-  }
+ .seasonal-drinks {
+   display: flex;
+   width: 80%;
+   margin-left: 10px;
+   margin-right: 20px;
+   flex-shrink: 0;
+   padding-left: 30%;
+ }
 
-  .button2{
-    text-align: center;
+ .seasonal-other {
+   display: inline-flex;
+   width: 40%;
+   justify-content: space-around;
+   flex-shrink: 0;
+   margin-left: 10px;
+   margin-right: 20px;
+ }
+
+   .dire {
+   display: flex;
+   width: 100%;
+ }
+
+ .directions {
+   display: flex;
+   width: 100%;
+   flex-shrink: 0;
+   padding-left: 15%;
+ }
+
+ .directions-other {
+   display: inline-flex;
+   flex-shrink: 0;
+   width: 100%;
+ }
+
+ .directions-other-1 {
+ display: block;
+ width: 50%;
+ }
+
+ .directions-other-2 {
+ display: block;
+ justify-content: space-around;
+ padding-right:10%;
+ }
+
+ .button2{
+   text-align: center;
 }
 
-  .first-container {
-    padding-left: 20%;
-    display: flex;
-    width: 90%;
+ .first-container {
+   padding-left: 20%;
+   display: flex;
+   width: 90%;
 
-    }
+   }
 
-  .prices1 {
-    padding: 30px;
+ .prices1 {
+   padding: 30px;
 
-    }
+   }
 
-  body {
-    background-color: #D9A25F;
-    font-size: 20px;
-    font-family: arial, helvetica, sans-serif;
-    margin-left: 20px;
-    }
+ body {
+   background-color: #D9A25F;
+   font-size: 20px;
+   font-family: arial, helvetica, sans-serif;
+   margin-left: 20px;
+   }
 
-  button {
-    background-color: #182126;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-    justify: center;
-    align: center;
-    }
+ button {
+   background-color: #182126;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 10px;
+   justify: center;
+   align: center;
+   }
 
 .button1 {
-    font-size: 30px;
-  }
+   font-size: 30px;
+ }
 
 .socialbox {
-  display: flex;
-  width: 100%;
-  flex-shrink: 0;
-  padding-left: 15%;
+ display: flex;
+ width: 100%;
+ flex-shrink: 0;
+ padding-left: 15%;
 }
 
 .social-other {
-  display: inline-flex;
-  flex-shrink: 0;
-  width: 100%;
+ display: inline-flex;
+ flex-shrink: 0;
+ width: 100%;
 }
 
 
 .social-1 {
-  display: flex;
-  padding-right: 10%;
-  flex-shrink: 0;
+ display: flex;
+ padding-right: 10%;
+ flex-shrink: 0;
 
 }
 
