@@ -1,8 +1,6 @@
 .responsive {
    width: 100%;
    height: auto;
-
-
 }
 
  body {
@@ -11,7 +9,6 @@
    font-family: arial, helvetica, sans-serif;
    margin-left: 20px;
 }
-
 
 .button1 {
  background-color: #8C5845;
@@ -24,7 +21,6 @@
  font-size: 16px;
 }
 
-
 button {
  background-color: #182126;
  border: none;
@@ -35,10 +31,7 @@ button {
  display: inline-block;
  font-size: 17px;
  margin: 10px;
-
-
 }
-
 
 .select-css {
  display: block;
@@ -184,7 +177,6 @@ button {
      flex-shrink: 0;
    }
 
-
 @media screen and (min-width: 600px) {
 
   .iced-drinks {
@@ -193,16 +185,9 @@ button {
     width: 20%;
   }
 
-
-
-
  .button-style {
    padding-left: 20%
-
  }
-
-
-
 
  .box {
     display: flex;
@@ -285,13 +270,11 @@ button {
    padding-left: 20%;
    display: flex;
    width: 90%;
-
-   }
+}
 
  .prices1 {
    padding: 30px;
-
-   }
+}
 
  body {
    background-color: #D9A25F;
@@ -314,23 +297,22 @@ button {
    align: center;
    }
 
-.button1 {
-   font-size: 30px;
+  .button1 {
+  font-size: 30px;
  }
 
-.socialbox {
- display: flex;
- width: 100%;
- flex-shrink: 0;
- padding-left: 15%;
+  .socialbox {
+   display: flex;
+   width: 100%;
+   flex-shrink: 0;
+   padding-left: 15%;
 }
 
-.social-other {
- display: inline-flex;
- flex-shrink: 0;
- width: 100%;
+  .social-other {
+   display: inline-flex;
+   flex-shrink: 0;
+   width: 100%;
 }
-
 
 .social-1 {
  display: flex;
@@ -338,6 +320,5 @@ button {
  flex-shrink: 0;
 
 }
-
 }
 }
